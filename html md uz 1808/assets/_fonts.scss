@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url("../fonts/MyriadPro/MyriadPro-Light.woff2") format('woff2'),
+        url("../fonts/MyriadPro/MyriadPro-Light.woff") format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+p {
+    font-family: 'MyriadPro';
+}
+@font-face {
+    font-family: 'BackOutPrint';
+    src: url("../fonts/BackOut/BackOutPrint.woff2") format('woff2'),
+        url("../fonts/BackOut/BackOutPrint.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+h1, header, .container {
+    font-family: 'BackOutPrint';
+}
